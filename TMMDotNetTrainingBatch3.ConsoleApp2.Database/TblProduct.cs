@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TMMDotNetTrainingBatch3.ConsoleApp2.Database.AppDbContextModels;
+namespace TMMDotNetTrainingBatch3.ConsoleApp2.Database;
 
 public partial class TblProduct
 {
@@ -15,7 +15,7 @@ public partial class TblProduct
 
     public bool DeleteFlag { get; set; }
 
-    public DateTime CreatedDateTime { get; set; }
+    public DateOnly CreatedDateTime { get; set; }
 
-    public DateTime ModifiedDateTime { get; set; }
+    public DateOnly ModifiedDateTime { get; set; }
 }

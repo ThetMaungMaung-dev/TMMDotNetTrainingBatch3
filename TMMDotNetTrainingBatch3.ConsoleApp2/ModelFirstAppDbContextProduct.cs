@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace TMMDotNetTrainingBatch3.ConsoleApp2
 {
-    public class ModelFirstAppDbContext : DbContext
+    public class ModelFirstAppDbContextProduct : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

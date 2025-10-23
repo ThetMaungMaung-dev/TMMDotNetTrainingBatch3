@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace TMMDotNetTrainingBatch3.ConsoleApp2
 {
-    public class ProductEFCoreService
+    public class ProductEFCoreServiceModelFirst
     {
-        private readonly ModelFirstAppDbContext _db;
+        private readonly ModelFirstAppDbContextProduct _db;
 
-        public ProductEFCoreService()
+        public ProductEFCoreServiceModelFirst()
         {
-            _db = new ModelFirstAppDbContext();
+            _db = new ModelFirstAppDbContextProduct();
         }
 
         public void Read()

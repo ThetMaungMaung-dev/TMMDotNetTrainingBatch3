@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TMMDotNetTrainingBatch3.ConsoleApp2.Database\TMMDotNetTrainingBatch3.ConsoleApp2.Database.csproj" />
+  </ItemGroup>
+
 </Project>
